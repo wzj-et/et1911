@@ -100,6 +100,18 @@
 			<artifactId>commons-fileupload</artifactId>
 		</dependency>
 
+		<!-- 使用hibernate-validator实现后端校验 -->
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+		</dependency>
+
+		<!-- 密码加密插件 -->
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+		</dependency>
+
 
 
 	</dependencies>

@@ -18,4 +18,10 @@ public class UserServiceImpl implements UserService {
 		return userMapper.getById(id);
 	}
 
+	@Override
+	public User getByNameAndPasswork(String name, String password) {
+		
+		return userMapper.getByNameAndPasswork(name, password);
+	}
+
 }
